@@ -1,0 +1,24 @@
+apiVersion: v1
+sections:
+- label: Basic Configuration
+  fields:
+  - field: endpoint
+    type: string
+    label: ICQ Endpoint
+    help: The Fully Qualified Domain Name of your InterSystems IRIS Cloud SQL Service deployment
+    value: externalName
+
+endpoints:
+- title: InterSystems IRIS Cloud SQL
+  contexts:
+  - manage
+  icon: bpleditor.png
+  group: Connectivity
+  description: InterSystems IRIS Cloud SQL Service
+  visibility: internal
+  presentation: apiEndpoint
+  type: jdbc
+  clusterIPService: "*"
+  url: "{host}:9099"
+
+EULSA: https://www.intersystems.com/EULSA-Docs/InterSystems_IRIS_Cloud_End_User-8_14_19.pdf 

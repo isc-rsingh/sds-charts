@@ -1,0 +1,15 @@
+# Default values for helmchart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# routing mechanism is either externalNames or endpoints
+routingMechanism: externalNames
+port: 9092
+
+externalName:
+- name: broker1
+  dns: broker1.some-fqdn.com
+
+endpoints:
+- name: broker1
+  IP: 172.15.0.1
