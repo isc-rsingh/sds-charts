@@ -6,8 +6,24 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
+    appVersion: 2.3.4
+    created: "2023-05-10T22:57:40.294961-04:00"
+    description: This service allows you to add IRIS Cloud SQL to your SDS control
+      plane
+    digest: f092fe8e1d17315487ed64ca675be99c44731bbf82984975130272429e268a58
+    icon: https://isc-rsingh.github.io/sds-charts/icq/icon.png
+    name: icq
+    type: application
+    urls:
+    - https://isc-rsingh.github.io/sds-charts/icq-2.3.4.tgz
+    version: 2.3.4
+  - annotations:
+      intersystems/sds-category: connector
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: InterSystems IRIS Cloud SQL Service
+    apiVersion: v2
     appVersion: 2.3.3
-    created: "2023-05-10T14:23:11.991531-04:00"
+    created: "2023-05-10T22:57:40.29416-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 962512fdb240b336c04741dcbee1a8f444d46491eb24c6ec999e6ebaa14ac831
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://isc-rsingh.github.io/sds-charts/icq-2.3.3.tgz
     version: 2.3.3
-generated: "2023-05-10T14:23:11.990464-04:00"
+generated: "2023-05-10T22:57:40.292486-04:00"

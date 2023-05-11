@@ -1,0 +1,11 @@
+
+{{- $relname := .Release.Name -}}
+kind: Service
+apiVersion: v1
+metadata:
+  name: irisCloudSQLExternalService
+  namespace: {{ $relname }}
+spec:
+  type: ExternalName
+  externalName: {{ .Values.irisFQDN }}
+---
