@@ -2,6 +2,16 @@ apiVersion: v1
 sections:
 - label: Basic Configuration
   fields:
+  - field: routingMechanism
+    type: options
+    value: externalNames
+    label: Routing Mechanism
+    help: You can reach your Kafka Broker in two ways. Using its IP addresses or Fully Qualified Domain name.
+    options:
+    - option: IP Addresses
+      value: endpoints
+    - option: Fully Qualified Domain Name
+      value: externalNames
   - field: externalNames
     type: table
     label: Cloud SQL External Names
