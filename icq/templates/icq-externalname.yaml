@@ -4,7 +4,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: iris-cloud-sql-external
+  name: {{ $externalName.name }}
   namespace: {{ $relname }}
 spec:
   type: ExternalName
