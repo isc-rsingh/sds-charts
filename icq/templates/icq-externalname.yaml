@@ -1,14 +1,10 @@
 {{- $relname := .Release.Name -}}
-{{- if eq .Values.routingMechanism "externalNames" }}
-{{- range $index, $externalName := .Values.externalNames }}
 kind: Service
 apiVersion: v1
 metadata:
-  name: {{ $externalName.name }}
+  name: iris-cloud-sql-external
   namespace: {{ $relname }}
 spec:
   type: ExternalName
-  externalName: {{ $externalName.dns }}
----
-{{- end }}
-{{- end }}
+  externalName: {{ .Values.irisFQDN }}
+
