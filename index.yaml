@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.6
-    created: "2023-05-12T11:38:32.043081-04:00"
+    created: "2023-05-12T12:59:53.930271-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 31793f9eae709583056276c7c47ce061137c030a1b0604556cfcaf8e955af6f9
@@ -23,7 +23,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.5
-    created: "2023-05-12T11:38:32.042158-04:00"
+    created: "2023-05-12T12:59:53.92879-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 353e87ad820445f3a95c969460f270168e4cad2fcae6b7354f55b4466c863753
@@ -39,7 +39,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.4
-    created: "2023-05-12T11:38:32.040638-04:00"
+    created: "2023-05-12T12:59:53.927083-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: aed5b3359579f7fdf4e593384cd38357caa708d52d89899f3713e2acd79dd3f8
@@ -55,7 +55,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.3
-    created: "2023-05-12T11:38:32.03891-04:00"
+    created: "2023-05-12T12:59:53.923909-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 962512fdb240b336c04741dcbee1a8f444d46491eb24c6ec999e6ebaa14ac831
@@ -65,6 +65,22 @@ entries:
     urls:
     - https://isc-rsingh.github.io/sds-charts/icq-2.3.3.tgz
     version: 2.3.3
+  - annotations:
+      intersystems/sds-category: connector
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: InterSystems IRIS Cloud SQL Service
+    apiVersion: v2
+    appVersion: 0.3.7
+    created: "2023-05-12T12:59:53.922195-04:00"
+    description: This service allows you to add IRIS Cloud SQL to your SDS control
+      plane
+    digest: e37e956da9e899f8e4960b9d40892902e2956f54923bd1dae72fa7d04ac52dfe
+    icon: https://isc-rsingh.github.io/sds-charts/icq/icon.png
+    name: icq
+    type: application
+    urls:
+    - https://isc-rsingh.github.io/sds-charts/icq-0.3.7.tgz
+    version: 0.3.7
   rsingh-python-icqbox:
   - annotations:
       intersystems/sds-category: sample
@@ -72,7 +88,7 @@ entries:
       intersystems/sds-title: Raj Python ICQ Busybox
     apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-05-12T11:38:32.048292-04:00"
+    created: "2023-05-12T12:59:53.935914-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: 309956bd7284e286bd9e9d943b3e43bc7db42ffe237be991a50a1b975c2c37e8
@@ -88,7 +104,7 @@ entries:
       intersystems/sds-title: Raj Python ICQ Busybox
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-05-12T11:38:32.046816-04:00"
+    created: "2023-05-12T12:59:53.934416-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: ef841cc816ca0aead1ecce51ae7cac302dd5cf2879062a9fa267f4db77519c32
@@ -104,7 +120,7 @@ entries:
       intersystems/sds-title: Raj Python ICQ Busybox
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-05-12T11:38:32.044946-04:00"
+    created: "2023-05-12T12:59:53.93263-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: b4a5d7c7ab16702f6258956d2aa01bc149771fe2fb3c8916c5fe847333e313bb
@@ -114,4 +130,4 @@ entries:
     urls:
     - https://isc-rsingh.github.io/sds-charts/rsingh-python-icqbox-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-12T11:38:32.036683-04:00"
+generated: "2023-05-12T12:59:53.921257-04:00"

@@ -1,6 +1,7 @@
 # Default values for helmchart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
-
-irisFQDN: "" 
+routingMechanism: externalNames
+externalNames:
+- name: isccloudsqlservice
+  dns: isccloudsqlservice.us-east-1.elb.amazonaws.com

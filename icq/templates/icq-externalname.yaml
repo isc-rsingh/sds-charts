@@ -1,4 +1,6 @@
 {{- $relname := .Release.Name -}}
+{{- if eq .Values.routingMechanism "externalNames" }}
+{{- range $index, $externalName := .Values.externalNames }}
 kind: Service
 apiVersion: v1
 metadata:
@@ -6,5 +8,7 @@ metadata:
   namespace: {{ $relname }}
 spec:
   type: ExternalName
-  externalName: {{ .Values.irisFQDN }}
-
+  externalName: {{ $externalName.dns }}
+---
+{{- end }}
+{{- end }}

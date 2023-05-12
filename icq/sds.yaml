@@ -2,11 +2,18 @@ apiVersion: v1
 sections:
 - label: Basic Configuration
   fields:
-  - field: irisFQDN
-    type: string
-    label: ICQ Endpoint
-    help: The Fully Qualified Domain Name of your InterSystems IRIS Cloud SQL Service deployment
-    value: example.com
+  - field: externalNames
+    type: table
+    label: Cloud SQL External Names
+    help: List of the Cloud SQL Domain Names. 
+    condition: routingMechanism=externalNames
+    columns:
+    - field: name
+      type: string
+      name: Name of service in K8s Namespace
+    - field: dns
+      type: string
+      name: Cloud SQL DNS Name
 
 endpoints:
 - title: InterSystems IRIS Cloud SQL
