@@ -17,7 +17,7 @@ endpoints:
   description: InterSystems IRIS Cloud SQL Service
   visibility: internal
   presentation: apiEndpoint
-  type: intersystems-jdbc
+  type: intersystems-iris-jdbc
   clusterIPService: "*"
   url: "jdbc:IRIS://{host}:1972/USER"
 
