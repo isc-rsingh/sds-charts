@@ -1,9 +1,9 @@
 tableName: SQLUser.rpybb
 icqHost: k8s-5de22c52-a41557e8-6741242413-050efd481d2cf2fb.elb.us-east-1.amazonaws.com
 jdbcConnectionString: jdbc:IRIS://127.0.0.1:1972/USER
-image:
-  registry: isc-rsingh.github.io/sds-charts
-  repository: rsingh-python-icqbox
+# image:
+#   registry: isc-rsingh.github.io/sds-charts
+#   repository: rsingh-python-icqbox
 
 cloudProvider: "dev"
 cloudProviderRegion: "dev-region"
@@ -14,7 +14,7 @@ compute:
     memory: 512Mi
 
 skaffold: 
-  enabled: false
+  enabled: true
   image: to_be_defined_by_skaffold
 
 # These are the secret fields needed to successfully deploy.
