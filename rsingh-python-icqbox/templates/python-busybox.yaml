@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rsingh-python-icqbox
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: rsingh-python-icqbox
+  template: 
+    metadata: 
+      labels: 
+        app: rsingh-python-icqbox
+    spec: 
+      containers:
+      - name: rsingh-python-icqbox-container
+        {{- if eq .Values.skaffold.enabled true }}
+        image: {{ .Values.skaffold.image }}
+        {{- else }}
+        image: {{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Chart.AppVersion }}
+        {{- end }}
+
+        env:
+        - name: BUSYBOX_IRIS_JDBC_URL
+          value: {{ .Values.jdbcConnectionString }}
+        - name: ICQ_HOST
+          value: {{ .Values.icqHost }}
+        - name: BUSYBOX_TABLE_NAME
+          value: {{ .Values.tableName }}
+        - name: IRIS_USERNAME
+          value: {{ .Values.irisUserName}}
+        - name: IRIS_PASSWORD
+          value: {{ .Values.irisPassword }}
+
+        resources:
+          requests:
+            cpu: {{ .Values.compute.main.cpu }}
+            memory: {{ .Values.compute.main.memory }}
+
+      {{- if .Values.compute.main.nodeTypeSelector }}
+      nodeSelector:
+        sds/node-type: {{ .Values.compute.main.nodeTypeSelector }}
+      {{- end }}
+      tolerations:
+      - key: sds/select-worker
+        value: select-worker
+        effect: NoSchedule
+
