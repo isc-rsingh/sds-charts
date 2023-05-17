@@ -20,7 +20,7 @@ endpoints:
   icon: bpleditor.png
   group: Connectivity
   description: InterSystems IRIS Cloud SQL JDBC Connection
-  visibility: external
+  visibility: internal
   presentation: apiEndpoint
   type: intersystems-iris-jdbc
   url: jdbc:IRIS://{host}:1972/USER
