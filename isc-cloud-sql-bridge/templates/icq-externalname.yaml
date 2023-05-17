@@ -2,7 +2,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: iris-cloud-sql-external
+  name: icq-{{ .Values.icqDeploymentId }}
   namespace: {{ $relname }}
 spec:
   type: ExternalName

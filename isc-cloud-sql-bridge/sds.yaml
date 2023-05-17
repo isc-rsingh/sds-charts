@@ -23,16 +23,16 @@ endpoints:
   visibility: external
   presentation: apiEndpoint
   type: intersystems-iris-jdbc
-  url: "jdbc:IRIS://{host}:1972/USER"
-- title: SQL client
-  contexts:
-  - manage
-  icon: bpleditor.png
-  group: Connectivity
-  description: InterSystems IRIS Cloud SQL client
-  visibility: external
-  presentation: apiEndpoint
-  type: intersystems-iris-jdbc
-  url: "https://portal.staging.isccloud.io/deployments/{icqDeploymentId}/sqlquery"
+  url: jdbc:IRIS://{host}:1972/USER
+# - title: SQL client
+#   contexts:
+#   - manage
+#   icon: bpleditor.png
+#   group: Connectivity
+#   description: InterSystems IRIS Cloud SQL client
+#   visibility: external
+#   presentation: link
+#   type: intersystems-iris-jdbc
+#   url: "https://portal.staging.isccloud.io/deployments/{icqDeploymentId}/sqlquery"
 
 EULSA: https://www.intersystems.com/EULSA-Docs/InterSystems_IRIS_Cloud_End_User-8_14_19.pdf 
