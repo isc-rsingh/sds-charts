@@ -1,0 +1,10 @@
+{{- $relname := .Release.Name -}}
+kind: Service
+apiVersion: v1
+metadata:
+  name: iris-cloud-sql-external
+  namespace: {{ $relname }}
+spec:
+  type: ExternalName
+  externalName: {{ .Values.icqHostName }}
+

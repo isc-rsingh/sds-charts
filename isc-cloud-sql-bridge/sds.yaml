@@ -1,0 +1,38 @@
+apiVersion: v1
+sections:
+- label: Basic Configuration
+  fields:
+  - field: icqHostName
+    type: string
+    label: ICQ Endpoint
+    help: The Fully Qualified Domain Name of your InterSystems IRIS Cloud SQL Service deployment
+    value: example.com
+  - field: icqDeploymentId
+    type: string
+    label: ICQ deployment ID
+    help: The deployment ID of your InterSystems IRIS Cloud SQL Service
+    value: k9up7qc1f6t
+
+endpoints:
+- title: JDBC Connection
+  contexts:
+  - manage
+  icon: bpleditor.png
+  group: Connectivity
+  description: InterSystems IRIS Cloud SQL JDBC Connection
+  visibility: external
+  presentation: apiEndpoint
+  type: intersystems-iris-jdbc
+  url: "jdbc:IRIS://{host}:1972/USER"
+- title: SQL client
+  contexts:
+  - manage
+  icon: bpleditor.png
+  group: Connectivity
+  description: InterSystems IRIS Cloud SQL client
+  visibility: external
+  presentation: apiEndpoint
+  type: intersystems-iris-jdbc
+  url: "https://portal.staging.isccloud.io/deployments/{icqDeploymentId}/sqlquery"
+
+EULSA: https://www.intersystems.com/EULSA-Docs/InterSystems_IRIS_Cloud_End_User-8_14_19.pdf 

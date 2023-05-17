@@ -6,8 +6,24 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
+    appVersion: 2.7.0
+    created: "2023-05-17T12:49:39.228834-04:00"
+    description: This service allows you to add IRIS Cloud SQL to your SDS control
+      plane
+    digest: 386246bab4815edf7a99c72e8e9b886fe07bd4cd37f016d7678fc4c0bb9e9d8f
+    icon: https://isc-rsingh.github.io/sds-charts/isc-cloud-sql-bridge/icon.png
+    name: icq
+    type: application
+    urls:
+    - https://isc-rsingh.github.io/sds-charts/icq-2.7.0.tgz
+    version: 2.7.0
+  - annotations:
+      intersystems/sds-category: connector
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: InterSystems IRIS Cloud SQL Service
+    apiVersion: v2
     appVersion: 2.5.1
-    created: "2023-05-12T15:57:01.49979-04:00"
+    created: "2023-05-17T12:49:39.228252-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 44f0678221a13c4796a8ce3684b8f4f70dc7ff5b92d8a0731e799ee097973979
@@ -23,7 +39,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-05-12T15:57:01.497224-04:00"
+    created: "2023-05-17T12:49:39.226479-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: b9eab27dc750ec790181a6ccc5367820f587d5333c860bf5c4764ef255a771fb
@@ -39,7 +55,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.4.1
-    created: "2023-05-12T15:57:01.495775-04:00"
+    created: "2023-05-17T12:49:39.224908-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 3973de3d554ad25c77e3f41f1f83aba4a9877a94934bdbadba12dd40793cbcf6
@@ -55,7 +71,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.4.0
-    created: "2023-05-12T15:57:01.494249-04:00"
+    created: "2023-05-17T12:49:39.223399-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 3d92f858ca10f8712bb810bebc4e1b9c013350756d38b7d837229e7eac4e79de
@@ -71,7 +87,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.6
-    created: "2023-05-12T15:57:01.492704-04:00"
+    created: "2023-05-17T12:49:39.221791-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 31793f9eae709583056276c7c47ce061137c030a1b0604556cfcaf8e955af6f9
@@ -87,7 +103,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.5
-    created: "2023-05-12T15:57:01.491027-04:00"
+    created: "2023-05-17T12:49:39.22034-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 353e87ad820445f3a95c969460f270168e4cad2fcae6b7354f55b4466c863753
@@ -103,7 +119,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.4
-    created: "2023-05-12T15:57:01.487018-04:00"
+    created: "2023-05-17T12:49:39.218629-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: aed5b3359579f7fdf4e593384cd38357caa708d52d89899f3713e2acd79dd3f8
@@ -119,7 +135,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.3.3
-    created: "2023-05-12T15:57:01.485301-04:00"
+    created: "2023-05-17T12:49:39.217015-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 962512fdb240b336c04741dcbee1a8f444d46491eb24c6ec999e6ebaa14ac831
@@ -135,7 +151,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 0.3.7
-    created: "2023-05-12T15:57:01.483468-04:00"
+    created: "2023-05-17T12:49:39.215387-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: e37e956da9e899f8e4960b9d40892902e2956f54923bd1dae72fa7d04ac52dfe
@@ -152,7 +168,7 @@ entries:
       intersystems/sds-title: Raj Python ICQ Busybox
     apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-05-12T15:57:01.504309-04:00"
+    created: "2023-05-17T12:49:39.233163-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: 309956bd7284e286bd9e9d943b3e43bc7db42ffe237be991a50a1b975c2c37e8
@@ -168,7 +184,7 @@ entries:
       intersystems/sds-title: Raj Python ICQ Busybox
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-05-12T15:57:01.502962-04:00"
+    created: "2023-05-17T12:49:39.231809-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: ef841cc816ca0aead1ecce51ae7cac302dd5cf2879062a9fa267f4db77519c32
@@ -184,7 +200,7 @@ entries:
       intersystems/sds-title: Raj Python ICQ Busybox
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-05-12T15:57:01.501393-04:00"
+    created: "2023-05-17T12:49:39.230452-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: b4a5d7c7ab16702f6258956d2aa01bc149771fe2fb3c8916c5fe847333e313bb
@@ -194,4 +210,4 @@ entries:
     urls:
     - https://isc-rsingh.github.io/sds-charts/rsingh-python-icqbox-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-12T15:57:01.481468-04:00"
+generated: "2023-05-17T12:49:39.213651-04:00"
