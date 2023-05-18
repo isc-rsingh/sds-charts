@@ -34,5 +34,13 @@ endpoints:
 #   presentation: link
 #   type: intersystems-iris-jdbc
 #   url: "https://portal.staging.isccloud.io/deployments/{icqDeploymentId}/sqlquery"
-
+- title: Cloud SQL Portal
+  contexts:
+  - documentation
+  group: Documentation
+  description: InterSystems IRIS Cloud SQL docs
+  visibility: foreign
+  type: browsing
+  presentation: link
+  url: https://docs.intersystems.com/services/csp/docbook/DocBook.UI.Page.cls?KEY=PAGE_iriscloudsql
 EULSA: https://www.intersystems.com/EULSA-Docs/InterSystems_IRIS_Cloud_End_User-8_14_19.pdf 
