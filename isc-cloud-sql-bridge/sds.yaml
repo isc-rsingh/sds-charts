@@ -23,7 +23,7 @@ endpoints:
   visibility: internal
   presentation: apiEndpoint
   type: intersystems-iris-jdbc
-  # clusterIPService: (*)
+  clusterIPService: icq-svc
   url: jdbc:IRIS://{clusterIPService.host}:1972/USER
 # - title: SQL client
 #   contexts:
