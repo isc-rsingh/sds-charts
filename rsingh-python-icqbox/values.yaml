@@ -13,7 +13,7 @@ compute:
     memory: 512Mi
 
 skaffold: 
-  enabled: false
+  enabled: true
   image: to_be_defined_by_skaffold
 
 # These are the secret fields needed to successfully deploy.
