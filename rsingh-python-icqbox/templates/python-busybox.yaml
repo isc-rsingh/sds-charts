@@ -14,7 +14,7 @@ spec:
         app: icq-py-busybox
     spec: 
       containers:
-      - name: icq-py-busybox-container
+      - name: icq-py-busybox
         {{- if eq .Values.skaffold.enabled true }}
         image: {{ .Values.skaffold.image }}
         {{- else }}
