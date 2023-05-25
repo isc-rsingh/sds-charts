@@ -1,18 +1,18 @@
 apiVersion: v2
-name: rsingh-python-icqbox
+name: icq-py-busybox
 description: Sample for developers. Shows how to package a python application as a smart data service that can connect to InterSystems IRIS using JDBC.
 type: application
-version: 0.2.0
+version: 0.2.1
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: 0.2.0
+appVersion: 0.2.1
 
 icon: https://isc-rsingh.github.io/sds-charts/rsingh-python-icqbox/icon.png
 
 annotations:
-  intersystems/sds-title: Raj Python ICQ Busybox
+  intersystems/sds-title: ICQ Python Busybox
   intersystems/sds-organization: InterSystems Corporation
   intersystems/sds-category: sample

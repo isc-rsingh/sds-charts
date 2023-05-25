@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rsingh-python-icqbox
+  name: icq-py-busybox
   namespace: {{ .Release.Namespace }}
 spec:
   replicas: 1
   selector: 
     matchLabels: 
-      app: rsingh-python-icqbox
+      app: icq-py-busybox
   template: 
     metadata: 
       labels: 
-        app: rsingh-python-icqbox
+        app: icq-py-busybox
     spec: 
       containers:
-      - name: rsingh-python-icqbox-container
+      - name: icq-py-busybox-container
         {{- if eq .Values.skaffold.enabled true }}
         image: {{ .Values.skaffold.image }}
         {{- else }}
@@ -22,10 +22,8 @@ spec:
         {{- end }}
 
         env:
-        - name: BUSYBOX_IRIS_JDBC_URL
+        - name: JDBC_URL
           value: {{ .Values.jdbcConnectionString }}
-        - name: ICQ_HOST
-          value: {{ .Values.icqHost }}
         - name: BUSYBOX_TABLE_NAME
           value: {{ .Values.tableName }}
         - name: IRIS_USERNAME
