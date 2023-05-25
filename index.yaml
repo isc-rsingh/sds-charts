@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.8.8
-    created: "2023-05-25T14:28:19.010732-04:00"
+    created: "2023-05-25T15:46:13.032782-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 564bfa82ea92e10d73fae3e2f272c961a884b3982997f2038b3a1d673c6e1da0
@@ -23,7 +23,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.8.7
-    created: "2023-05-25T14:28:19.0096-04:00"
+    created: "2023-05-25T15:46:13.031306-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 1636277e739f15fab80ebe97683320acc96385e42f29d3583c06c6d60c7cc767
@@ -39,7 +39,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Cloud SQL Service
     apiVersion: v2
     appVersion: 2.8.6
-    created: "2023-05-25T14:28:19.008205-04:00"
+    created: "2023-05-25T15:46:13.029535-04:00"
     description: This service allows you to add IRIS Cloud SQL to your SDS control
       plane
     digest: 9b1de2236ae030834e0c26a524bb8f3fcd06ed01d8adc977e3a4bd6afc72499b
@@ -55,8 +55,24 @@ entries:
       intersystems/sds-organization: Raj Singh
       intersystems/sds-title: ICQ Python Busybox
     apiVersion: v2
+    appVersion: 0.2.3
+    created: "2023-05-25T15:46:13.038246-04:00"
+    description: Sample for developers. Shows how to package a python application
+      as a smart data service that can connect to InterSystems IRIS using JDBC.
+    digest: dbb365f73ecdd62b00c8515cc7ece93783dcc77bbb5392506c1fea5dbc4efdb2
+    icon: https://isc-rsingh.github.io/sds-charts/rsingh-python-icqbox/icon.png
+    name: icq-py-busybox
+    type: application
+    urls:
+    - https://isc-rsingh.github.io/sds-charts/icq-py-busybox-0.2.3.tgz
+    version: 0.2.3
+  - annotations:
+      intersystems/sds-category: sample
+      intersystems/sds-organization: Raj Singh
+      intersystems/sds-title: ICQ Python Busybox
+    apiVersion: v2
     appVersion: 0.2.2
-    created: "2023-05-25T14:28:19.013169-04:00"
+    created: "2023-05-25T15:46:13.037078-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: 73c130dffabfdbe9a079f1e947d39609461486cb5e38838dc32de9f41d983cc2
@@ -72,7 +88,7 @@ entries:
       intersystems/sds-title: ICQ Python Busybox
     apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-05-25T14:28:19.012311-04:00"
+    created: "2023-05-25T15:46:13.034854-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: 207a774e39c0b1a68bb6607606f981aa22183bca6c2bb4b1197c9b09c8b70085
@@ -82,4 +98,4 @@ entries:
     urls:
     - https://isc-rsingh.github.io/sds-charts/icq-py-busybox-0.2.1.tgz
     version: 0.2.1
-generated: "2023-05-25T14:28:19.006685-04:00"
+generated: "2023-05-25T15:46:13.027479-04:00"
