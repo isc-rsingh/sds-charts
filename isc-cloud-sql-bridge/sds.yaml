@@ -23,19 +23,9 @@ endpoints:
   visibility: internal
   presentation: apiEndpoint
   type: intersystems-iris-jdbc
-  # clusterIPService: icq-svc
+  clusterIPService: "*"
   # url: jdbc:IRIS://{clusterIPService.host}:1972/USER
   url: jdbc:IRIS://icq-svc:1972/USER
-# - title: SQL client
-#   contexts:
-#   - manage
-#   icon: bpleditor.png
-#   group: Connectivity
-#   description: InterSystems IRIS Cloud SQL client
-#   visibility: external
-#   presentation: link
-#   type: intersystems-iris-jdbc
-#   url: "https://portal.staging.isccloud.io/deployments/{icqDeploymentId}/sqlquery"
 - title: Cloud SQL Portal
   contexts:
   - documentation

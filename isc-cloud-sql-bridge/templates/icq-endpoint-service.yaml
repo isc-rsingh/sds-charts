@@ -1,0 +1,12 @@
+{{- $relname := .Release.Name -}}
+{{- $port := .Values.port -}}
+kind: Service
+apiVersion: v1
+metadata:
+  name: icq-svc-cip
+  namespace: {{ .Release.Name }}
+spec:
+  type: ClusterIP
+#   ports:
+#     - port: {{ $port }}
+#       targetPort: {{ $port }}
