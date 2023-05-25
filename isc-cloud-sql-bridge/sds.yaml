@@ -14,17 +14,18 @@ sections:
   #   value: k9up7qc1f6t
 
 endpoints:
-# - title: JDBC Connection
-#   contexts:
-#   - manage
-#   icon: bpleditor.png
-#   group: Connectivity
-#   description: InterSystems IRIS Cloud SQL JDBC Connection
-#   visibility: internal
-#   presentation: apiEndpoint
-#   type: intersystems-iris-jdbc
-#   clusterIPService: icq-svc
-#   url: jdbc:IRIS://{clusterIPService.host}:1972/USER
+- title: JDBC Connection
+  contexts:
+  - manage
+  icon: bpleditor.png
+  group: Connectivity
+  description: InterSystems IRIS Cloud SQL JDBC Connection
+  visibility: internal
+  presentation: apiEndpoint
+  type: intersystems-iris-jdbc
+  # clusterIPService: icq-svc
+  # url: jdbc:IRIS://{clusterIPService.host}:1972/USER
+  url: jdbc:IRIS://icq-svc:1972/USER
 # - title: SQL client
 #   contexts:
 #   - manage

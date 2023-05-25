@@ -1,9 +1,8 @@
-{{- $relname := .Release.Name -}}
 kind: Service
 apiVersion: v1
 metadata:
-  name: icq-{{ .Values.icqDeploymentId }}
-  namespace: {{ $relname }}
+  name: icq-svc
+  namespace: {{ .Release.Name }}
 spec:
   type: ExternalName
   externalName: {{ .Values.icqHostName }}
