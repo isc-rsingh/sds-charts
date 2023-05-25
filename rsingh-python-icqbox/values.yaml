@@ -1,8 +1,8 @@
 tableName: SQLUser.rpybb
 jdbcConnectionString: jdbc:IRIS://127.0.0.1:1972/USER
-# image:
-#   registry: isc-rsingh.github.io/sds-charts
-#   repository: icq-py-busybox
+image:
+  registry: isc-rsingh.github.io/sds-charts
+  repository: icq-py-busybox
 
 cloudProvider: "dev"
 cloudProviderRegion: "dev-region"
@@ -13,7 +13,7 @@ compute:
     memory: 512Mi
 
 skaffold: 
-  enabled: true
+  enabled: false
   image: to_be_defined_by_skaffold
 
 # These are the secret fields needed to successfully deploy.
